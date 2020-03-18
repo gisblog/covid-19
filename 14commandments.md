@@ -2,7 +2,7 @@
 
 Transfer Learning – 14 commands to install and extend TensorFlow to retrain a classifier to classify your own images.
 
-```
+```sh
 01. $:~# pip install --upgrade "tensorflow==1.7.*"
 02. $:~# git clone https://github.com/googlecodelabs/tensorflow-for-poets-2
 03. $:~# cd tensorflow-for-poets-2
