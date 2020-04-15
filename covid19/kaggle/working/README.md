@@ -6,7 +6,7 @@ Walk given path for answer files. If conditions are met, then merge all answers 
 
 This creates - answers.task.0.biorxiv_medrxiv.json, answers.task.0.comm_use_subset.json, answers.task.0.noncomm_use_subset.json, answers.task.0.pmc_custom_license.json.
 
-For example, potential answers for Task 1 - "What is known about transmission, incubation, and environmental stability?" can be found here: (broken down by source type)
+For example, potential answers for Task 1 - "WHAT IS KNOWN ABOUT TRANSMISSION, INCUBATION, AND ENVIRONMENTAL STABILITY?" can be found here: (broken down by source type)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.biorxiv_medrxiv.json">bioRxiv-medRxiv</a> (600 kb)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.comm_use_subset.json">Commmercial Use</a> (9.2 mb)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
