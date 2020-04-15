@@ -282,8 +282,7 @@ questions_specific = [questions_0_specific, questions_1_specific, questions_2_sp
 
 ### function 1: fct_create_dict_of_papers() ###
 # walk given path for papers. if conditions are met, then write paper paths to a main papers file.
-# this creates -
-# papers.biorxiv_medrxiv.json, papers.comm_use_subset.json, papers.noncomm_use_subset.json, papers.pmc_custom_license.json.
+# this creates - papers.biorxiv_medrxiv.json, papers.comm_use_subset.json, papers.noncomm_use_subset.json, papers.pmc_custom_license.json.
 # see https://github.com/gisblog/nih-covid19/tree/master/covid19/kaggle/working.
 # e.g. papers.biorxiv_medrxiv.json -
 # { "paper": [ "/kaggle/input/CORD-19-research-challenge/biorxiv_medrxiv/biorxiv_medrxiv/pdf_json/4602afcb8d95ebd9da583124384fd74299d20f5b.json",... ] }
@@ -384,7 +383,7 @@ def fct_get_matches_from_papers(input_path_to_paper, input_question, input_min_d
     
     class sklearn.feature_extraction.text.CountVectorizer(input='content', encoding='utf-8', decode_error='strict', strip_accents=None, lowercase=True, preprocessor=None, tokenizer=None, stop_words=None, token_pattern='(?u)\b\w\w+\b', ngram_range=(1, 1), analyzer='word', max_df=1.0, min_df=1, max_features=None, vocabulary=None, binary=False, dtype=<class 'numpy.int64'>)
     
-    definitions below for any tuning required -
+    definitions below for any further tuning required -
     # vocabulary: mapping, e.g. {dict}, where keys/terms:values/indices are in the feature matrix.
     # - if not given, then determined from input docs.
     # document-frequency (df): ignored, if vocabulary != None.
@@ -513,8 +512,7 @@ process_0_write_answers.join()
 # walk given path for answer files.
 # if conditions are met, then merge all answers on a given path by task # and source type into a main answer file.
 # the merged JSON is structured like the original papers, and contains pointers to the original papers for reference.
-# this creates -
-# answers.task.0.biorxiv_medrxiv.json, answers.task.0.comm_use_subset.json, answers.task.0.noncomm_use_subset.json, answers.task.0.pmc_custom_license.json.
+# this creates - answers.task.0.biorxiv_medrxiv.json, answers.task.0.comm_use_subset.json, answers.task.0.noncomm_use_subset.json, answers.task.0.pmc_custom_license.json.
 # see https://github.com/gisblog/nih-covid19/tree/master/covid19/kaggle/working.
 # e.g. answers.task.0.comm_use_subset.json -
 # [ ... { "paper_id": "fffaed7e9353b7df6c4ca8f66b62e117013cb86d", "task": 0, "abstract": "WHAT IS KNOWN ABOUT TRANSMISSION, INCUBATION, AND ENVIRONMENTAL STABILITY?", "body_text": [ "..." ] } ... ]
