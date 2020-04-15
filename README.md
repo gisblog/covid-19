@@ -12,4 +12,4 @@ $ kaggle competitions submissions -c nlp-getting-started
 # competition != task
 $ kaggle competitions submit -c nlp-getting-started --file /mnt/g/Users/pie/Downloads/nih/covid19/kaggle/kernel36728ad265.ipynb --message gisblog
 # fork..
-```sh
+```
