@@ -17,3 +17,15 @@ Potential answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALIT
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.comm_use_subset.json">Commmercial Use</a> (9.1 mb)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
+
+We can also geoparse and geocode the extracted NLP answers, and map them so that the scientific community can visualize its research - See kaggle-geoparse.py and answers.task.3.biorxiv_medrxiv.json.
+
+Geoparsed answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?" can be found here:
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a> (660 kb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.comm_use_subset.json">Commmercial Use</a> (9.1 mb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a> (660 kb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.comm_use_subset.json">Commmercial Use</a> (9.1 mb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/country_mentions.working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
