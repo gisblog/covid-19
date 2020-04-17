@@ -1,7 +1,7 @@
 ![Selected places mentioned in the extracted NLP answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?" (bioRxiv-medRxiv)](https://github.com/gisblog/nih-covid19/raw/master/covid19/kaggle/working/answers.task.3.biorxiv_medrxiv.json.jpg)
 **Selected places mentioned in the extracted NLP answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?"**
 
-See the notebook for kaggle.py at https://www.kaggle.com/gisblog/cord-19-vectorizer-all-tasks/.
+See the Kaggle notebook at https://www.kaggle.com/gisblog/cord-19-vectorizer-all-tasks/.
 
 Walk given path for papers. If conditions are met, then write paper paths to a main papers file.
 This creates - papers.biorxiv_medrxiv.json, papers.comm_use_subset.json, papers.noncomm_use_subset.json, papers.pmc_custom_license.json.
