@@ -1,3 +1,6 @@
+![Places mentioned in the extracted NLP answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?" (bioRxiv-medRxiv)](https://github.com/gisblog/nih-covid19/raw/master/covid19/kaggle/working/answers.task.3.biorxiv_medrxiv.json.jpg)
+**Places mentioned in the extracted NLP answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?"**
+
 See the notebook for kaggle.py at https://www.kaggle.com/gisblog/cord-19-vectorizer-all-tasks/.
 
 Walk given path for papers. If conditions are met, then write paper paths to a main papers file.
@@ -18,14 +21,16 @@ Potential answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALIT
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
 
-We can also geoparse and geocode the extracted NLP answers, and map them so that the scientific community can visualize its research - See kaggle-geoparse.py and answers.task.3.biorxiv_medrxiv.json.jpg.
+We can also geoparse and geocode the extracted NLP answers, and map them so that the scientific community can visualize its research - See kaggle-geoparse.py.
 
-Geoparsed answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?" can be found here:
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a> (660 kb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.comm_use_subset.json">Commmercial Use</a> (9.1 mb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a> (660 kb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.comm_use_subset.json">Commmercial Use</a> (9.1 mb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/country_mentions.working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
+Geoparsed answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?":
+Cities -
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.comm_use_subset.json">Commmercial Use</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a>
+Country Mentions and Counts -
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.comm_use_subset.json">Commmercial Use</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/country_mentions.working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a>
