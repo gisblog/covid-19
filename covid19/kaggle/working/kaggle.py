@@ -299,8 +299,8 @@ def fct_create_dict_of_papers(input_dir, input_path_of_papers, input_type_of_pap
                     dict_of_papers['paper'].extend([dir_file])
                 break # test for kaggle
         json.dump(dict_of_papers, open_file, indent=2, separators=(',', ': '))
-    # return dict_of_papers # test
     print('*** fct_create_dict_of_papers ' + str(datetime.now()) + ' ***')
+    # return dict_of_papers # test
 # fct_create_dict_of_papers(input_path_of_papers='/mnt/g/Users/pie/Downloads/nih/covid19/CORD-19-research-challenge', input_type_of_papers='json') # test: req parameters before default parameters
 
 ### multiprocessing by dir - biorxiv_medrxiv, comm_use_subset, noncomm_use_subset, pmc_custom_license: v. multithreading ###
@@ -567,8 +567,15 @@ process_0_merge_answers.join()
 
 ### conclusion ###
 # see files at https://github.com/gisblog/nih-covid19.
+#
 # for e.g., potential answers for task 1 - "WHAT IS KNOWN ABOUT TRANSMISSION, INCUBATION, AND ENVIRONMENTAL STABILITY?" can be found here: (broken down by source type)
 # https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.biorxiv_medrxiv.json (600 kb)
 # https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.comm_use_subset.json (9.2 mb)
 # https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.noncomm_use_subset.json (1.7 mb)
 # https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.0.pmc_custom_license.json (1.2 mb)
+#
+# potential answers for task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?" can be found here:
+# https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a> (660 kb)
+# https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.comm_use_subset.json">Commmercial Use</a> (9.1 mb)
+# https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.noncomm_use_subset.json">Non-commercial Use</a> (1.7 mb)
+# https://raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
