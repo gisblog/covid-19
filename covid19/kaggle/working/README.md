@@ -21,7 +21,7 @@ Potential answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALIT
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a> (1.7 mb)
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a> (1.2 mb)
 
-We can also geoparse and geocode the extracted NLP answers for visualization - See kaggle-geoparse.py.
+We can also geoparse and geocode the extracted NLP answers for visualization - See kaggle-geo.py.
 
 Geoparsed answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?":
 Cities -
