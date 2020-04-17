@@ -37,4 +37,4 @@ Country Codes and Counts -
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.comm_use_subset.json">Commmercial Use</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a>
-* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/country_mentions.working/answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a>
+* <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a>
