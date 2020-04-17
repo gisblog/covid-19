@@ -24,12 +24,16 @@ Potential answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALIT
 We can also geoparse and geocode the extracted NLP answers for visualization - See kaggle-geo.py.
 
 Geoparsed answers for Task 3 - "HELP US UNDERSTAND HOW GEOGRAPHY AFFECTS VIRALITY?":
+
 Cities -
+
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.comm_use_subset.json">Commmercial Use</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/cities.answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a>
+
 Country Mentions and Counts -
+
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.biorxiv_medrxiv.json">bioRxiv-medRxiv</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.comm_use_subset.json">Commmercial Use</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.noncomm_use_subset.json ">Non-commercial Use</a>
