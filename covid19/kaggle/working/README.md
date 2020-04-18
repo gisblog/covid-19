@@ -38,3 +38,17 @@ Country Codes and Counts -
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.comm_use_subset.json">Commmercial Use</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.noncomm_use_subset.json">Non-commercial Use</a>
 * <a href="//raw.githubusercontent.com/gisblog/nih-covid19/master/covid19/kaggle/working/country_mentions.answers.task.3.pmc_custom_license.json">PubMed Central (PMC)</a>
+
+Also:
+
+Given the large unlabeled corpora, WORD2VEC was found to be more granular for the COVID19 use-case. It was used over DOC2VEC because the concepts or individual IDs of the docs/papers themselves weren't the most important factors towards the closest answers i.e. What mattered more than their authors, sponsors or tags was if the papers had the rightly-worded answers to the questions posed. DOC2VEC adds a doc/para [vector], and is generally more helpful when the papers have tags. E.g. to find duplicate papers, or papers by similar authors.
+
+NGRAM_RANGE was used to determine context by weighing nearby words more heavily than distant words. BOW was found to be less accurate as it ignored word ordering.
+
+And a search engine-type approach was found to be more deterministic than what was understood to be expected or even possible. Therefore, the approach taken was to massively trim the papers the scientists would need to digest. Future enhancements could include clustering for visualization.
+
+See -
+* https://arxiv.org/abs/1301.3781
+* http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
+* https://radimrehurek.com/gensim/
+* https://github.com/stanleyfok/sentence2vec
