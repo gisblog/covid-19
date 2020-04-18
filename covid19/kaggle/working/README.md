@@ -47,7 +47,7 @@ NGRAM_RANGE was used to determine context by weighing nearby words more heavily 
 
 And a search engine-type approach was found to be more deterministic than what was understood to be expected or even possible. Therefore, the approach taken was to massively trim the papers the scientists would need to digest. Future enhancements could include clustering for visualization.
 
-See -
+Related:
 * https://arxiv.org/abs/1301.3781
 * http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 * https://radimrehurek.com/gensim/
