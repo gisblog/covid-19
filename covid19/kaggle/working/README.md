@@ -55,7 +55,7 @@ The Euclidean distance (or cosine similarity) between 2 word [vector]s provided 
 
 Populating GloVe required 1 pass through the entire COVID19 dataset. For the large COVID19 dataset, this pass was computationally expensive. Subsequent training iterations would have been faster. Also, pre-trained word [vector] datasets downloaded (e.g. Wikipedia 2014 + Gigaword 5) didn't match the semantics for COVID19.
 
-And a search engine-type approach was found to be more deterministic than what was understood to be expected or even accurate. Therefore, the approach taken was to massively trim the papers the scientists would need to digest. Future enhancements could include clustering for visualization.
+And a search engine-type approach returning a few top results was found to be more deterministic than what was understood to be expected or even sufficiently accurate. Therefore, the approach taken was to massively trim the papers the scientists would need to digest. Future enhancements could include clustering for visualization.
 
 Related:
 * https://arxiv.org/abs/1301.3781
