@@ -60,12 +60,12 @@ def fct_geoparse(input_url):
     country_mentions = GeoText(merge_answers).country_mentions # OrderedDict([('...', ...), ('...', ...)])
     geo_file = input_url.split('/')[-1]
     
-    cities_file = os.getcwd() + '/cities.' + geo_file
+    cities_file = f'{os.getcwd()}/cities.{geo_file}'
     os.makedirs(os.path.dirname(cities_file), exist_ok=True)
     with open(cities_file, 'w') as open_file:
         json.dump(cities, open_file, indent=2, separators=(',', ': '))
     
-    country_mentions_file = os.getcwd() + '/country_mentions.' + geo_file
+    country_mentions_file = f'{os.getcwd()}/country_mentions.{geo_file}'
     os.makedirs(os.path.dirname(country_mentions_file), exist_ok=True)
     with open(country_mentions_file, 'w') as open_file:
         json.dump(country_mentions, open_file, indent=2, separators=(',', ': '))
