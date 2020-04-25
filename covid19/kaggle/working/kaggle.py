@@ -289,7 +289,7 @@ questions_specific = [questions_0_specific, questions_1_specific, questions_2_sp
 def fct_create_dict_of_papers(input_dir, input_path_of_papers, input_type_of_papers='json'): # see glob
     dict_of_papers = {}
     dict_of_papers['paper'] = []
-    dict_file = '/mnt/g/Users/pie/Downloads/nih/covid19/kaggle/working/papers.' + input_dir + '.json'
+    dict_file = '/mnt/g/Users/pie/Downloads/nih/covid19/kaggle/working/papers.' + input_dir + '.json' # todo: f-string
     os.makedirs(os.path.dirname(dict_file), exist_ok=True)
     with open(dict_file, 'w') as open_file:
         for dirname, _, filenames in os.walk(input_path_of_papers):
@@ -483,7 +483,7 @@ def fct_write_answers(input_path_of_papers, input_min_df, input_max_df, input_ta
                 "abstract": questions[input_task],
                 "body_text": fct_get_answer_from_matches(item, input_min_df, input_max_df, input_task, input_top) # item = input_path_to_paper
             }
-            output_answer_file = '/mnt/g/Users/pie/Downloads/nih/covid19/kaggle/working' + item
+            output_answer_file = '/mnt/g/Users/pie/Downloads/nih/covid19/kaggle/working' + item # todo: f-string
             os.makedirs(os.path.dirname(output_answer_file), exist_ok=True)
             with open(output_answer_file, 'w') as open_answer:
                 json.dump(answer_json, open_answer, indent=2, separators=(',', ': '))
@@ -517,7 +517,7 @@ process_0_write_answers.join()
 # e.g. answers.task.0.comm_use_subset.json -
 # [ ... { "paper_id": "fffaed7e9353b7df6c4ca8f66b62e117013cb86d", "task": 0, "abstract": "WHAT IS KNOWN ABOUT TRANSMISSION, INCUBATION, AND ENVIRONMENTAL STABILITY?", "body_text": [ "..." ] } ... ]
 def fct_merge_answers(input_task, input_dir, input_path_of_answers, input_type_of_answers='json'):
-    answer_file = '/mnt/g/Users/pie/Downloads/nih/covid19/kaggle/working/answers.task.' + str(input_task) + '.' + input_dir + '.json'
+    answer_file = '/mnt/g/Users/pie/Downloads/nih/covid19/kaggle/working/answers.task.' + str(input_task) + '.' + input_dir + '.json' # todo: f-string
     os.makedirs(os.path.dirname(answer_file), exist_ok=True)
     with open(answer_file, 'w') as open_file:
         open_file.write('[')
