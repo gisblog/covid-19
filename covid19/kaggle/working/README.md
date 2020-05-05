@@ -58,6 +58,7 @@ Populating GloVe required 1 pass through the entire COVID19 dataset. For the lar
 And a search engine-type approach returning a few top results was found to be more deterministic than what was understood to be expected or even sufficiently accurate. Therefore, the approach taken was to massively trim the papers the scientists would need to digest. Future enhancements could include clustering for visualization.
 
 Related:
+* https://www.instagram.com/gisblog/ (the participatory comics, if you’re wondering)
 * https://arxiv.org/abs/1301.3781
 * http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 * https://radimrehurek.com/gensim/
