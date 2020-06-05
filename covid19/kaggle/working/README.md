@@ -57,6 +57,8 @@ Populating GloVe required 1 pass through the entire COVID19 dataset. For the lar
 
 And a search engine-type approach returning a few top results was found to be more deterministic than what was understood to be expected or even sufficiently accurate. Therefore, the approach taken was to massively trim the papers the scientists would need to digest. Future enhancements could include clustering for visualization.
 
+This approach has some limitations too. For example, without domain knowledge, "What causes COVID19?" would be treated lexically closer to "X causes COVID19" than "The cause of COVID19 is the Coronoa virus". However, this limitation was partially mitigated by combining tasks' questions, detailed-questions and specific-questions into lists, and then using the lists for measuring the linguistic/semantic similarities.
+
 Related:
 * https://www.instagram.com/gisblog/ (the participatory comics, if you’re wondering)
 * https://arxiv.org/abs/1301.3781
